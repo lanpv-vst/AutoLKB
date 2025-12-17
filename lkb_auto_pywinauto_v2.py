@@ -856,7 +856,7 @@ class App:
                 self.ok_btn.config(state="normal")
                 self.exit_btn.config(state="normal")
                 self.stop_btn.config(state="disabled")
-                messagebox.showinfo("Done", "Automation finished (or stopped).")
+                messagebox.showinfo("Lanpv@vst.gov.vn", "Hoạt động đã kết thúc")
             self.root.after(0, _finish)
 
     def on_stop(self):
